@@ -1,0 +1,32 @@
+name: authapp
+description: A new Flutter project.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^5.0.0
+  shared_preferences: ^2.0.5
+  firebase_core: ^1.0.2
+  firebase_database: ^6.1.1
+  firebase_auth: ^1.0.1
+  firebase_analytics: ^7.1.1
+  cloud_firestore: ^1.0.3
+  simple_gravatar: ^1.0.5
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/default.png
+    - assets/images/defaultDark.png

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="waterproject_v3">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>waterproject_v3</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <script src="/__/firebase/8.3.2/firebase-app.js"></script>
+
+  <script src="/__/firebase/8.3.2/firebase-analytics.js"></script>
+
+  <script src="/__/firebase/init.js"></script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyCtatXSxZYgfXEG0GaozO0RlHwGeQaZCxs",
+      authDomain: "waterproject-861c5.firebaseapp.com",
+      projectId: "waterproject-861c5",
+      storageBucket: "waterproject-861c5.appspot.com",
+      messagingSenderId: "780285758829",
+      appId: "1:780285758829:web:7467341804a0ad62041e64",
+      measurementId: "G-G96WDJ6M24"
+    }
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
