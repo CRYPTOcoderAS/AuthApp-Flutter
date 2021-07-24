@@ -1,3 +1,7 @@
+<p align="center">
+  <img align= "center" src="https://drive.google.com/uc?export=view&id=1WgZHCHX8LbjJODPuKHmz_QgTqYGi50Yo" style=" align: center ; width: 650px;  height: 320px"  title="Akshat Sachan" />
+  
+</p>
 # AUTHENTICATION APP
 
 A new Flutter project. <br>
